@@ -1,2 +1,2 @@
-# Encryptix
-I developed the some website projects during my summer internship period in Encryptix. porjects include technologies like HTML, CSS and  JavaScript in it.
+#Encryptix
+During my summer internship at Encryptix, I developed several website projects. These projects utilized technologies such as HTML, CSS, and JavaScript.
