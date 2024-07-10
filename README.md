@@ -34,4 +34,8 @@ Technologies Used:
 -CSS
 -JavaScript
 
+![image](https://github.com/shaikh-sakir/Encryptix/assets/158321075/7403ad57-f634-43e0-9b55-826c14f68f9b)
+![image](https://github.com/shaikh-sakir/Encryptix/assets/158321075/3867774e-1d7f-40cb-a3e3-28aab05fbc67)
+![image](https://github.com/shaikh-sakir/Encryptix/assets/158321075/b1079329-9ff5-42c9-86f7-fa48217cbf58)
+
 
