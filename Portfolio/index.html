@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | sakir shaikh</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>S</span>akir</h1>
+                <!-- <img src="assests/personal-portfolio-img/images/logo.png" alt="" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="ri-close-fill" id="fasd" onclick="closemenu()"></i>
+                </ul>
+                <i class="ri-menu-line" id="fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Programmer</p>
+                <h1>Hi, I'm <span> Sakir</span> <br> From India</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- about  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assests/personal-portfolio-img/images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+<h1 class="sub-title">About Me</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptate quaerat quia ullam sapiente iusto iure aliquam placeat? Possimus, doloremque fuga cupiditate quas exercitationem incidunt ex mollitia labore aperiam veritatis? Quasi, unde. Architecto, blanditiis beatae vero asperiores animi vel nihil ab dolores dolorum laboriosam! Animi culpa cum sapiente harum placeat?</p>
+<div class="tab-tiles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('experience')"> Experience</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+<div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>Logo Design</span><br>Designing Logos</li>
+        <li><span>Web development</span><br>web development</li>
+        <li><span>App development</span><br>Building Android/ios apps</li>
+    </ul>
+</div>
+<div class="tab-contents" id="experience">
+    <ul>
+        <li><span>2022 - current</span><br>Made logos for various companies and clients</li>
+        <li><span>2022-2023</span><br>Team Lead of Desgin engineering team</li>
+        <li><span>2024 - 2weeks</span><br>Internship at encryptix.in</li>
+    </ul>
+</div>
+<div class="tab-contents" id="education">
+    <ul>
+        <li><span>2022</span><br>Get certification in Designing</li>
+        <li><span>2021</span><br>HSC from MJJ Vidhyalay</li>
+        <li><span>2019</span><br>SSC from IGM Internation School</li>
+    </ul>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------------- Services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2><i class="ri-window-line"></i> Web Desing</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui architecto soluta ea doloremque provident blanditiis deleniti, quisquam placeat nulla suscipit.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <h2><i class="ri-pencil-line"></i> UX/UI</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui architecto soluta ea doloremque provident blanditiis deleniti, quisquam placeat nulla suscipit.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <h2><i class="ri-apps-line"></i> App development</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui architecto soluta ea doloremque provident blanditiis deleniti, quisquam placeat nulla suscipit.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio-------------------------------------------------------------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="assests/personal-portfolio-img/images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App Logo</h3>
+                    <p>Some description about the app that i created for the social connects.</p>
+                    <a href="#"><i class="ri-link-m"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assests/personal-portfolio-img/images/work-2.png" alt=""><div class="layer">
+                    <h3>online purchasing app</h3>
+                    <p>Created a online purchasing app.</p>
+                    <a href="#"><i class="ri-link-m"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assests/personal-portfolio-img/images/work-3.png" alt=""><div class="layer">
+                    <h3>clone of spotify</h3>
+                    <p>I created the full working frontend clone of spotify</p>
+                    <a href="#"><i class="ri-link-m"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+
+<!-- contact -------------------------------------------------------------------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="ri-mail-fill"></i> Sakirshaikh36980@gmail.com</p>
+                <p><i class="ri-phone-fill"></i> 9313937032</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100081128107666"><i class="ri-meta-fill"></i></i></a>
+                    <a href="https://www.linkedin.com/in/sakir-shaikh-a29141245/"><i class="ri-linkedin-fill"></i></a>
+                    <a href="https://www.instagram.com/__sakir_shaikh__/"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://twitter.com/sakir_shaikh_"><i class="ri-twitter-x-fill"></i></a>
+                </div>
+                <a href="assests/personal-portfolio-img/images/210220131020_ShaikhSakir(1).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="#">
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                <textarea name="message" rows="6" id="" placeholder="your message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="ri-copyright-fill"></i> Sakir, Made by sakir shaikh</p>
+    </div>
+ </div>
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzv_6q41W5kHlrNgdkHdpdWJO4QibJv206eOIUu4C_ajmGGj3eXEw8wjFuL2ihmJFQ0fA/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
